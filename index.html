@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Unit Conversions</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#temperature">Temperature</a></li>
+            <li><a href="#weight">Weight</a></li>
+            <li><a href="#distance">Distance</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="temperature">
+            <h2>Temperature Conversion</h2>
+            <input type="number" id="celsius" placeholder="Celsius">
+            <button id="temperature-btn">Convert to Fahrenheit</button>
+            <input type="number" id="fahrenheit" placeholder="Fahrenheit" readonly>
+        </section>
+        <section id="weight">
+            <h2>Weight Conversion</h2>
+            <input type="number" id="kilo" placeholder="Kilograms">
+            <button id="weight-btn">Convert to Pounds</button>
+            <input type="number" id="pounds" placeholder="Pounds" readonly>
+        </section>
+        <section id="distance">
+            <h2>Distance Conversion</h2>
+            <input type="number" id="km" placeholder="Kilometers">
+            <button id="distance-btn">Convert to Miles</button>
+            <input type="number" id="miles" placeholder="Miles" readonly>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Unit Conversion Tool</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
